@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts Apps</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="" href="" />
+  </head>
+  <body>
+    <main class="main_container">
+      <h1 class="main_container-heading">Contact Apps</h1>
+      <section class="main_container_add_contact">
+        <h2>Add New Contact</h2>
+        <div class="container_add_contact">
+          <input
+            id="formFirstName"
+            class="form"
+            type="text"
+            placeholder="First Name"
+          />
+          <input
+            id="formLastName"
+            class="form"
+            type="text"
+            placeholder="Last Name"
+          />
+          <input id="formEmail" class="form" type="text" placeholder="Email" />
+          <button onclick="addContact()" class="button1">Add</button>
+        </div>
+      </section>
+      <section class="main_container_contact_list">
+        <h2>Contact List</h2>
+        <div id="contact">
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
