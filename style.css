@@ -30,7 +30,6 @@ body{
 }
 
 .main_container_add_contact{
-    padding: 20px;
     display: flex;
     flex-direction: column;;
 }
@@ -43,7 +42,7 @@ body{
     box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
     border-radius: 16px;
     border-radius: 10px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .form{
@@ -86,6 +85,14 @@ body{
 .user-image{
     width: 64px;
     height: 64px;
+}
+
+.contact{
+    margin-top: 20px;
+}
+
+.main_container_contact_list{
+    margin-top: 20px;
 }
 
 .contact_card {
